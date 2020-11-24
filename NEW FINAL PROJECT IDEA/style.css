@@ -1,0 +1,25 @@
+body {background-color: white;}
+
+	 
+h1   {color: gold;}
+h2   {color: white;}
+p {color: #ffffff;}
+/* unvisited link */
+a:link {
+  color: maroon;
+}
+/* visited link */
+a:visited {
+  color: gold;
+}
+/* mouse over link */
+a:hover {
+  color: maroon;
+}
+/* Top right text */
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
