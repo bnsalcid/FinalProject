@@ -9,17 +9,21 @@ body
   	background-repeat: no-repeat;
   	background-attachment: fixed;  
   	background-size: cover;
-	}
-
-		
+	}	
 	</style>
+
+  <h1 id="name"> Student's Name </h1>
+  <script type="text/javascript">
+    var name = window.prompt("First off we'd like to get on your name bases with our Sun Devils");
+    document.getElementById("name").innerHTML = "Welcome Sun Devil " + name + " !";  
+  </script>
+
 <body>
 	<title>Question Check!</title>
 <link rel="stylesheet" href="style.css">
 
 		<h1 style= "text-align: center"
-		"font-size:  50px;"> 
-		<br>
+                "font-size: 50px"> 
 		Let's Get to it Sun Devils!
 		</h1>
 
@@ -100,7 +104,9 @@ Don't worry this will be short & sweet! :)
   <input type="radio" id="yes" name="texts" value="yes">
   <label for="yes"> I'm in! </label><br>
   <input type="radio" id="no" name="texts" value="no">
-  <label for="no">No thanks!</label><br>
+  <label for="no">No thanks!</label>
+  <br>
+  <br>
   <button onclick="document.location='submitted.html'">Sun Devil check!</button>
 
 
